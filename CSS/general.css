@@ -59,7 +59,8 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
-  background-color: #d6c0b3;
+  /* background-color: #d6c0b3; */
+  background: linear-gradient(#d6c0b3, #e6d9d1);
 }
 
 .container {
@@ -86,12 +87,42 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+  font-weight: 700;
+  color: #493628;
+  letter-spacing: -0.5px;
+}
+
+.heading-primary {
+  font-size: 3.6rem;
+  line-height: 1.05;
+  margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 8rem;
+}
+
+.heading-tertiary {
+  font-size: 2.4rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
+
 .subheading {
   display: block;
   font-size: 1.8rem;
   text-transform: uppercase;
   font-weight: 700;
   color: #833471;
-  margin-bottom: 4.8rem;
   letter-spacing: 0.75px;
+  padding: 0.8rem 0;
+}
+
+.margin-top {
+  margin-top: 4.8rem;
 }

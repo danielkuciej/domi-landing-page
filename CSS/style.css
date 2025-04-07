@@ -51,6 +51,7 @@
 } */
 .section-hero {
   margin: 0 auto;
+  padding-bottom: 2.4rem;
 }
 
 .hero-box {
@@ -71,6 +72,10 @@
 }
 
 /* FOR-WHO SECTION */
+.section-for-who {
+  padding: 4.8rem 0;
+}
+
 .for-who--box-text {
   display: flex;
   flex-direction: column;
@@ -87,7 +92,7 @@
 }
 
 .for-who--desc {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 1.7;
 }
 
@@ -137,4 +142,57 @@
 
 .for-who--img {
   width: 90%;
+}
+
+/* WHO AM I SECTION */
+.section-who {
+  padding: 4.8rem 0;
+}
+
+.text-box-1a2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.who-number {
+  font-size: 8.6rem;
+  font-weight: 600;
+  color: #9a8b81;
+  margin-bottom: 1.2rem;
+}
+
+.who-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  list-style: none;
+}
+
+.who-desc-point {
+  display: flex;
+  flex-shrink: 0;
+  gap: 0.8rem;
+  padding-bottom: 1.2rem;
+}
+
+.who-desc-point:last-child {
+  padding-bottom: 0;
+}
+
+.icon-check {
+  padding-top: 0.4rem;
+  height: 2.4rem;
+  width: 2.4rem;
+  flex-shrink: 0;
+  color: #493628;
+}
+
+.img-grid {
+  display: grid;
+  column-gap: 1.2rem;
+  row-gap: 1.2rem;
+}
+
+.who-img {
+  width: 100%;
 }
