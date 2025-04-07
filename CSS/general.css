@@ -26,7 +26,7 @@ Large: 1.8
 - Primary: #D6C0B3
 - Tints: #AB886D
 - Shades: #493628
-- Accents:
+- Accents: #833471
 - Greys #E4E0E1
 
 --- 05 SHADOWS
@@ -84,4 +84,14 @@ body {
 
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.subheading {
+  display: block;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #833471;
+  margin-bottom: 4.8rem;
+  letter-spacing: 0.75px;
 }
