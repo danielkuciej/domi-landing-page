@@ -297,22 +297,6 @@
   text-align: center;
 }
 
-.btn-buy {
-  padding: 0.8rem 9.6rem;
-  font-size: 1.4rem;
-  font-weight: 600;
-  text-decoration: none;
-  background-color: #493628;
-  color: #e4e0e1;
-  border-radius: 9px;
-  border: none;
-  transition: all 0.3s;
-}
-
-.btn-buy:hover {
-  background-color: #675241;
-}
-
 /*******************/
 /* CONTACT SECTION */
 /*******************/
@@ -338,4 +322,97 @@
   transform: translateY(-0.5rem);
   box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
   color: #675241;
+}
+
+/***************/
+/* CTA SECTION */
+/***************/
+.section-cta {
+  padding: 9.6rem 0 6.4rem 0;
+}
+
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+  border-radius: 9px;
+  background-image: linear-gradient(to right bottom, #a8719c, #9c5d8d);
+  overflow: hidden;
+}
+
+.cta .heading-secondary {
+  margin-bottom: 3.2rem;
+}
+
+.cta-text-box {
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  color: #524234;
+}
+
+.cta-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
+}
+
+.cta-img-box {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(168, 113, 156, 0.2),
+      rgba(156, 93, 141, 0.2)
+    ),
+    url("../IMG/Domi/domi-6.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+
+.cta-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.cta-form input,
+.cta-form select,
+.cta-form textarea {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.6rem;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  background-color: #e4e0e1;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.cta-form input::placeholder {
+  color: #aaa;
+}
+
+.cta *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.4rem rgba(253, 242, 233, 0.5);
+}
+
+.btn-form {
+  margin-top: 2.8rem;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.btn-form:hover {
+  background-color: #e4e0e1;
+  color: #493628;
+}
+
+.cta-form textarea {
 }

@@ -115,16 +115,8 @@ dzialaj-osiagaj-xpj
 Proces podstawowy: https://www.naffy.io/dominika-matejko/analiza-talentow-
 gallupa-XJk
 
-/\*
-Imię (O)
-nazwisko (O)
+Imię i nazwisko (O)
 mail (O)
 telefon (NO)
-skąd się dowiedziałęs (O)
+skąd się o mnie dowiedziałęs (O)
 dlaczego chesz uczesnitczyć? (O)
-
-plan
-podstawoay
-rozwojowy
-mentoring -- 'bestseller', 'najlepszy wybór'
-\*/
