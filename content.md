@@ -96,8 +96,7 @@ E-mail: dominikaa.matejko@gmail.com
 
 ### Instagram:
 
-https://www.instagram.com/dominikaa.matejko?igsh=d3oyemM0bXQ4OHhs&utm_so
-urce=qr
+https://www.instagram.com/dominikaa.matejko?igsh=d3oyemM0bXQ4OHhs&utm_source=qr
 
 ### Facebook: https://www.facebook.com/share/1FSNznu6E3/?mibextid=wwXIfr
 

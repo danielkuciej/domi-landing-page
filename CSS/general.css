@@ -126,3 +126,7 @@ body {
 .margin-top {
   margin-top: 4.8rem;
 }
+
+.bold {
+  font-weight: 700;
+}
