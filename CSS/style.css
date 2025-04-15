@@ -430,6 +430,16 @@
   text-align: center;
 }
 
+.contact {
+  row-gap: 3.2rem;
+}
+
+.calendly {
+  flex-direction: row;
+  gap: 8rem;
+  grid-column: 1 / -1;
+}
+
 .con-icon {
   height: 6.4rem;
   width: 6.4rem;
@@ -447,6 +457,27 @@
   font-size: 1.8rem;
   font-weight: 500;
   text-decoration: underline;
+}
+
+.cal-text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.cal-text {
+  font-size: 3rem;
+  letter-spacing: 3px;
+}
+
+.cal-text:link,
+.cal-text:visited {
+  color: #493628;
+}
+
+.cal-text-1:link,
+.cal-text-1:visited {
+  color: #524234;
 }
 
 /***************/
