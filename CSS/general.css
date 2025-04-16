@@ -88,6 +88,10 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
 .heading-primary,
 .heading-secondary,
 .heading-tertiary {
@@ -122,6 +126,12 @@ body {
   color: #833471;
   letter-spacing: 0.75px;
   padding: 0.8rem 0;
+}
+
+.footer-heading {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
 }
 
 .margin-top {

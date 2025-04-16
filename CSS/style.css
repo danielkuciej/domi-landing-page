@@ -459,6 +459,30 @@
   text-align: center;
 }
 
+/********************/
+/* FEEDBACK SECTION */
+/********************/
+.section-feedback {
+  padding: 4.8rem 0;
+}
+
+.feedback-box {
+  padding: 2.4rem;
+  height: 30rem;
+  overflow: scroll;
+}
+
+.feedback-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 1.6rem;
+}
+
+.feedback-name {
+  font-size: 1.6rem;
+  color: #6f6f6f;
+}
+
 /*******************/
 /* CONTACT SECTION */
 /*******************/
@@ -636,12 +660,6 @@
 .social-icon .con-icon {
   height: 2.4rem;
   width: 2.4rem;
-}
-
-.footer-heading {
-  font-size: 1.6rem;
-  font-weight: 500;
-  margin-bottom: 4rem;
 }
 
 .copyright {
