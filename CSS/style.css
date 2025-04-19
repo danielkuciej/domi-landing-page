@@ -54,6 +54,16 @@
   display: none;
 }
 
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
 /* HERO SECTION */
 /* .hero-img {
   width: 100%;
@@ -652,6 +662,10 @@
 .section-footer {
   padding: 9.6rem 0 6.4rem 0;
   border-bottom: 7px solid #8f487f;
+}
+
+.grid-footer {
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .socials {
