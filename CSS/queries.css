@@ -367,6 +367,10 @@
     order: 2;
   }
 
+  .section-offer .grid :nth-child(3) {
+    order: 3;
+  }
+
   .section-offer .grid :last-child {
     order: 4;
   }
