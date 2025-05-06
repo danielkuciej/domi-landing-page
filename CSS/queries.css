@@ -451,4 +451,17 @@
   .calendly {
     flex-direction: column;
   }
+
+  .contact-box {
+    padding: 1.6rem;
+  }
+
+  .con-icon {
+    height: 5.2rem;
+    width: 5.2rem;
+  }
+
+  .menu {
+    display: none;
+  }
 }
