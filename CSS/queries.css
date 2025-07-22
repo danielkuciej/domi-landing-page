@@ -261,6 +261,10 @@
 /* BELOW 704px (Smaller tablets) */
 /*********************************/
 @media (max-width: 44em) {
+  .container {
+    padding: 0 0.8rem;
+  }
+
   .btn-mobile-nav {
     display: block;
     z-index: 9999;
