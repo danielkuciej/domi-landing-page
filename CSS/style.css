@@ -52,6 +52,11 @@
   height: 2.6rem;
   width: 2.6rem;
   color: #493628;
+  transition: all 0.3s;
+}
+
+.icon-cart:hover {
+  color: #6d5e53;
 }
 
 /* MOBILE */
