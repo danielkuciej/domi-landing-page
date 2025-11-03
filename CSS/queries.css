@@ -470,3 +470,13 @@
     display: none;
   }
 }
+
+/************************/
+/* BELOW 400px (Smaller Phones) */
+/************************/
+@media (max-width: 25em) {
+  .best::before {
+    top: 3%;
+    right: -19%;
+  }
+}

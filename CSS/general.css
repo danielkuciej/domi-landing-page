@@ -26,7 +26,9 @@ Large: 1.8
 - Primary: #D6C0B3
 - Tints: #AB886D
 - Shades: #493628
-- Accents: #833471
+- Accents: #ed7117
+#833471 - stary akcent
+- Accents 
 - Greys #E4E0E1
 
 --- 05 SHADOWS
@@ -60,8 +62,9 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
-  /* background-color: #d6c0b3; */
-  background: linear-gradient(#d6c0b3, #e6d9d1);
+  background-color: #d6c0b3;
+  /* background: linear-gradient(#d6c0b3, #e6d9d1); */
+  border-bottom: 7px solid #ed7117;
 }
 
 .container {
@@ -123,7 +126,7 @@ body {
   font-size: 1.8rem;
   text-transform: uppercase;
   font-weight: 700;
-  color: #833471;
+  color: #ed7117;
   letter-spacing: 0.75px;
   padding: 0.8rem 0;
 }
