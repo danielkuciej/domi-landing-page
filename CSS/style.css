@@ -114,22 +114,28 @@
 }
 
 .hero-text-box {
-  padding: 3.2rem 0 3.2rem 3.2rem;
+  padding: 0 0 3.2rem 3.2rem;
+}
+
+.hero-text-box .heading-primary {
+  margin-bottom: 1.6rem;
 }
 
 .hero-text {
-  font-size: 2rem;
-  margin-bottom: 3.2rem;
+  font-size: 1.8rem;
+  margin-bottom: 1.6rem;
 }
 
 .hero-link-box {
   display: flex;
+  justify-content: center;
   gap: 2.4rem;
+  margin-top: 3.2rem;
 }
 
 .hero-btn:link,
 .hero-btn:visited {
-  border: 1px solid #9c5d8d;
+  /* border: 1px solid #9c5d8d; */
   border: 1px solid #ed7117;
   color: #ed7117;
   /* color: #cc4e5c; */
@@ -166,6 +172,11 @@
   border-radius: 5px;
   width: 95%;
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+}
+
+.heading-new,
+.hero-text {
+  line-height: 1.3;
 }
 
 /* .hero-box {
@@ -369,19 +380,30 @@
 /********************/
 .section-who {
   padding: 4.8rem 0;
+  /* background-color: #e4e0e1; */
+  background-color: #efe6e1;
+}
+
+.section-who .grid {
+  column-gap: 2.4rem;
 }
 
 .text-box-1a2 {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 3.2rem;
+  /* justify-content: space-between; */
 }
 
 .who-number {
-  font-size: 8.6rem;
+  font-size: 4.4rem;
   font-weight: 600;
   color: #9a8b81;
-  margin-bottom: 1.2rem;
+  margin-bottom: 0.8rem;
+}
+
+.who-text-box .heading-tertiary {
+  margin-bottom: 1.6rem;
 }
 
 .who-description {
@@ -425,6 +447,12 @@
 /*****************/
 .section-offer {
   padding: 4.8rem 0;
+}
+
+.offer-text {
+  font-size: 1.6rem;
+  padding-bottom: 2.4rem;
+  line-height: 1.3;
 }
 
 .offer {
@@ -475,6 +503,10 @@
   margin-bottom: 4.8rem;
 }
 
+.offer-description {
+  font-size: 1.6rem;
+}
+
 .offer-list {
   display: flex;
   flex-direction: column;
@@ -482,6 +514,30 @@
   list-style: none;
   font-size: 1.6rem;
   line-height: 1.5;
+}
+
+.offer-box-2 .heading-tertiary {
+  margin-bottom: 0.8rem !important;
+}
+
+.offer-box-2 .offer-subtitle {
+  margin-bottom: 2.4rem;
+}
+
+.offer-box-3 li:first-child {
+  margin-top: 1.6rem;
+}
+
+.offer-box-3 li:last-child {
+  margin-bottom: 1.6rem;
+}
+
+.offer-box-3 .offer-sign-up {
+  padding-top: 3.1rem;
+}
+
+.offer-box-6 .offer-sign-up {
+  padding-top: 4.8rem;
 }
 
 .offer-point {
@@ -513,6 +569,7 @@
 
 .offer-sign-up {
   text-align: center;
+  margin-top: 3.2rem;
 }
 
 /********************/
@@ -520,6 +577,7 @@
 /********************/
 .section-feedback {
   padding: 4.8rem 0;
+  background-color: #efe6e1;
 }
 
 .feedback-box {
@@ -542,6 +600,10 @@
 /*******************/
 /* CONTACT SECTION */
 /*******************/
+.section-contact {
+  padding: 4.8rem 0;
+}
+
 .contact-box {
   padding: 3.2rem;
   display: flex;
@@ -607,7 +669,8 @@
 /* CTA SECTION */
 /***************/
 .section-cta {
-  padding: 9.6rem 0 6.4rem 0;
+  padding: 9.6rem 0 9.6rem 0;
+  background-color: #efe6e1;
 }
 
 .cta {
@@ -616,7 +679,8 @@
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
   border-radius: 9px;
   /* background-image: linear-gradient(to right bottom, #a8719c, #9c5d8d); */
-  background-image: linear-gradient(to right bottom, #f29c5d, #ed7117);
+  /* background-image: linear-gradient(to right bottom, #f29c5d, #ed7117); */
+  background-color: #f18d45;
   overflow: hidden;
 }
 
@@ -625,13 +689,18 @@
 }
 
 .cta-text-box {
-  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  /* padding: 4.8rem 6.4rem 6.4rem 6.4rem; */
+  padding: 8rem;
   color: #524234;
 }
 
-.cta-text {
+.cta-text-1,
+.cta-text-2 {
   font-size: 1.8rem;
   line-height: 1.8;
+}
+
+.cta-text-2 {
   margin-bottom: 4.8rem;
 }
 
@@ -684,13 +753,30 @@
 }
 
 .btn-form {
-  margin-top: 2.8rem;
+  /* margin-top: 2.8rem; */
+  padding: 1.2rem 2.4rem;
   font-size: 1.8rem;
   cursor: pointer;
+  grid-column: 1 / -1;
 }
 
 .btn-form:hover {
   background-color: #e4e0e1;
+  color: #493628;
+}
+
+.ml-form-formContent {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.ml-form-successContent h4 {
+  padding-bottom: 4.8rem;
+}
+
+.rodo-text {
+  padding-top: 1.2rem;
+  font-size: 1.4rem;
   color: #493628;
 }
 
@@ -728,6 +814,18 @@
   line-height: 1.6;
   color: #767676;
   margin-top: auto;
+}
+
+.author-link:link,
+.author-link:visited {
+  color: inherit;
+}
+
+.author-link:hover,
+.author-link:active {
+  /* color: #524234; */
+  color: #555;
+  transition: all 0.3s;
 }
 
 .footer-nav {

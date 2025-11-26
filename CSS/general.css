@@ -55,6 +55,7 @@ Medium: 11px
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+  border-bottom: 7px solid #ed7117;
 }
 
 body {
@@ -64,7 +65,6 @@ body {
   color: #555;
   background-color: #d6c0b3;
   /* background: linear-gradient(#d6c0b3, #e6d9d1); */
-  border-bottom: 7px solid #ed7117;
 }
 
 .container {
@@ -121,9 +121,18 @@ body {
   margin-bottom: 3.2rem;
 }
 
+.heading-new {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #5b4a3e;
+  /* line-height: 1.2; */
+  margin-bottom: 4.8rem;
+}
+
 .subheading {
   display: block;
-  font-size: 1.8rem;
+  /* font-size: 1.8rem; */
+  font-size: 2rem;
   text-transform: uppercase;
   font-weight: 700;
   color: #ed7117;
@@ -146,7 +155,8 @@ body {
 }
 
 .btn {
-  padding: 0.8rem 9.6rem;
+  /* padding: 0.8rem 9.6rem; */
+  padding: 0.8rem 2.4rem;
   font-size: 1.4rem;
   font-weight: 600;
   text-decoration: none;
